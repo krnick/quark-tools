@@ -12,9 +12,9 @@ for item in os.listdir("."):
 
             newdata = {
                 "crime": data["crime"],
-                "x1_permission": data["x1_permission"],
-                "x2n3n4_comb": data["x2n3n4_comb"],
-                "yscore": data["yscore"],
+                "permission": data["x1_permission"],
+                "api": data["x2n3n4_comb"],
+                "score": data["yscore"],
                 "label": data["label"]
             }
 
